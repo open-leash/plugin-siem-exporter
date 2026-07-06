@@ -5,6 +5,7 @@ export const siemExporterManifest: OpenLeashPluginManifest = {
   slug: "siem-exporter",
   name: "siem-exporter",
   description: "Send agent incidents to your SOC stack.",
+  repositoryUrl: "https://github.com/open-leash/plugin-siem-exporter",
   version: "1.0.0",
   publisher: "openleash",
   runtime: "openleash-core",
@@ -43,5 +44,5 @@ export const siemExporterManifest: OpenLeashPluginManifest = {
     includePrompt: false,
     includeToolArguments: false
   },
-  tags: ["siem", "soc", "ecs", "splunk", "syslog", "incident-response"]
+  tags: ["utility", "siem", "soc", "ecs", "splunk", "syslog", "incident-response"]
 };
